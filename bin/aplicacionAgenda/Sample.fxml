@@ -33,7 +33,7 @@
    <center>
       <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <TextArea prefHeight="200.0" prefWidth="200.0" />
+            <TextArea fx:id="textField" prefHeight="200.0" prefWidth="200.0" />
             <Button fx:id="saludoBoton" mnemonicParsing="false" onMouseClicked="#saludar" text="Saludar" />
             <Button fx:id="botonInsertar" mnemonicParsing="false" onMouseClicked="#insertarActor" text="Insertar Actor" />
          </children>
